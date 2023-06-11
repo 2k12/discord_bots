@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+
+body {
+  background-color: #343e42da;
+}
+
+
+h1 {
+  font-size: 80px;
+  margin-top: 1em;
+  color: #f9f9f9;
+  font-family: 'Open Sans', sans-serif;
+  margin-left: 2em;
+}
+#bot{
+  border-bottom: 5px solid white;
+}
+h3 {
+  margin-top: 3em;
+  color: #f9f9f9;
+  font-family: 'Open Sans', sans-serif;
+  margin-left: 5.3em;
+  font-size: 30px;
+}
+
+h3>span {
+  color: aqua;
+  font-style: italic;
+
+}
+
+#logo {
+  position: absolute;
+  margin-left: 45em;
+  margin-top: -15em;
+  max-width: 10em;
+}
+
+#lupa {
+  border-radius: 2em;
+  border: 1px solid #343e42da;
+  width: 30em;
+  position: absolute;
+  margin-left: 80em;
+  margin-top: -6em;
+  margin-right: 7%;
+
+}
+
+p {
+  /* justify-content: left !important; */
+  color: #f9f9f9;
+  text-align: right;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+  margin-right: 7%;
+}
+
+strong {
+  color: aqua;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+a {
+  text-decoration: none;
+  width: 50em;
+  color: white;
+  font-size: 20px;
+
+}
+
+.button2 {
+
+  position: absolute;
+  margin-top: -23em;
+  /* position: relative; */
+  display: inline-block;
+  padding: 30px 61px;
+  border-radius: 15px;
+  color: #04f2ff;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  /* margin: 25px; */
+  font-family: "Roboto", sans-serif;
+  border: 2px solid #03fffb;
+  transition: all 0.1s linear;
+  margin-left: 70%;
+}
+
+.button2:hover {
+  border: 1px solid transparent;
+  background-color: #15a3a0;
+  color: white;
+  box-shadow: 0 0 0 5px #00f2ff;
+  font-weight: bold;
+}
+
+#des {
+  font-size: 20px;
+  font-style: italic;
+  border-bottom: 2px solid aqua;
+}

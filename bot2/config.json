@@ -1,0 +1,9 @@
+{
+    "BOT_TOKEN": "token_del_bot",
+    "prefix": ">",
+    "color": "#00C4FF",
+    "colore": "#ff0534",
+    "imgdoc": "https://cdn.icon-icons.com/icons2/69/PNG/128/file_document_13989.png",
+    "consoleicon": "./src/assets/cmdl.png"
+}
+
