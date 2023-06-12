@@ -8,7 +8,7 @@ al apartado "Bot" y conseguir su token .
 
 Luego de Conseguir su Token se lo debe asignar a la variable que hace referencia a "Token de Bot" en el archivo ***config.json*** de tal forma 
 que al cambiar este dato el Bot se vinculara con Discord y permitira interactuar con el.
-Para que los bots inicien su funcionamiento se debe ejecutar el archivo ***index.js** .
+Para que los bots inicien su funcionamiento se debe ejecutar el archivo "index.js".
 
 ![image](https://github.com/2k12/discord_bots/assets/104972625/73aedc85-3578-4448-b9d6-d64460ac1537)
                       ![image](https://github.com/2k12/discord_bots/assets/104972625/32cb96dd-8087-4d75-a457-e57bd4f700f8)
