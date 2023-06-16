@@ -53,7 +53,7 @@ h2>span {
 }
 
 p {
-    margin-top: 6.3em;
+    margin-top: 4.8em;
     color: #f9f9f9;
     text-align: right;
     font-family: 'Open Sans', sans-serif;
@@ -110,8 +110,58 @@ a {
     border-bottom: 2px solid aqua;
 }
 
-/* @media screen and (max-width: 600px) {
-    .mi-elemento {
-        width: 100%;
+@media screen and (max-width: 600px) {
+    .button2 {
+        position: absolute;
+        margin-left: 155px;
+        width: 20em;
+        margin-top: -25em !important;
     }
-} */
+
+    #logo {
+        margin-top: -178px;
+        margin-left: 10px;
+    }
+
+    p,
+    h2 {
+        font-size: 24px;
+    }
+
+    p {
+        margin-top: 10em;
+    }
+
+    h2 {
+        margin-left: 80px;
+    }
+
+}
+
+@media screen and (max-width: 550px) {
+    .button2 {
+        position: absolute;
+        margin-left: 120px;
+        width: 20em;
+        margin-top: -25em !important;
+    }
+
+    #logo {
+        margin-top: -250px;
+        margin-left: 9px;
+    }
+
+    p,
+    h2 {
+        font-size: 24px;
+    }
+
+    p {
+        margin-top: 10em;
+    }
+
+    h2 {
+        margin-left: 80px;
+    }
+
+}
