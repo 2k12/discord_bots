@@ -109,18 +109,52 @@ a {
     font-style: italic;
     border-bottom: 2px solid aqua;
 }
-
-@media screen and (max-width: 600px) {
+/* 550 */
+@media screen and (max-width: 575px) {
     .button2 {
         position: absolute;
-        margin-left: 155px;
-        width: 20em;
-        margin-top: -25em !important;
+        margin-left: 2em !important;
+        width: 18em !important;
+        margin-top: -50em !important;
+       
     }
 
     #logo {
-        margin-top: -178px;
-        margin-left: 10px;
+        margin-top: -225px !important;
+        margin-left: 10px !important;
+    }
+
+    p,
+    h2 {
+        font-size: 20px !important;
+    }
+
+    p {
+        margin-top: 15em !important; 
+        /* margin-bottom: -1em ; */
+    }
+
+    h2 {
+        margin-left: 80px;
+    }
+
+}
+
+/* 890 */
+@media screen and (max-width: 890px) {
+    .button2 {
+        position: absolute;
+        margin-left: 4em !important;
+        width: 20em;
+        margin-top: -39em !important;
+    }
+    h1{
+        margin-left: 148px !important;
+    }
+
+    #logo {
+        margin-top: -180px ;
+        margin-left: 5px !important;
     }
 
     p,
@@ -138,17 +172,19 @@ a {
 
 }
 
-@media screen and (max-width: 550px) {
+/* 1260 */
+@media screen and (max-width: 1260px) {
     .button2 {
         position: absolute;
-        margin-left: 120px;
+        margin-left: 33em ;
         width: 20em;
         margin-top: -25em !important;
     }
 
     #logo {
-        margin-top: -250px;
-        margin-left: 9px;
+        margin-left: 38em;
+        margin-top: -12em;
+        max-width: 10em;
     }
 
     p,
@@ -163,5 +199,33 @@ a {
     h2 {
         margin-left: 80px;
     }
+}
 
+/* 1750 */
+@media screen and (max-width: 1750px) {
+    .button2 {
+        position: absolute;
+        /* margin-left: 72em; */
+        width: 20em;
+        margin-top: -25em !important;
+    }
+
+    #logo {
+        margin-left: 38em;
+        margin-top: -12em;
+        max-width: 10em;
+    }
+
+    p,
+    h2 {
+        font-size: 24px;
+    }
+
+    p {
+        margin-top: 10em;
+    }
+
+    h2 {
+        margin-left: 80px;
+    }
 }
